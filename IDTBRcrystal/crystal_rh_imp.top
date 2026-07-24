@@ -1,0 +1,11 @@
+#include "IDTBR_potentials_rh_imp.itp"
+#include "IDTBR.itp"
+
+[ system ]
+; Name
+IDTBR crystal
+
+[ molecules ]
+; Compound        #mols
+IDTBR               128
+

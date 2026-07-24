@@ -1,0 +1,37 @@
+; Run control
+integrator               = md       
+tinit                    = 0
+dt                       = 0.004
+nsteps                   = 100000000 ; 400 ns
+
+; Output control
+nstxout                  = 100000
+nstlog                   = 100000
+nstenergy                = 100000
+
+; cutoffs
+cutoff-scheme            = verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+rlist                    = 1.2
+coulombtype              = PME ;cutoff ; no charges
+rcoulomb                 = 1.2
+vdwtype                  = cutoff
+rvdw                     = 1.2
+
+; Temperature coupling
+tcoupl			 = v-rescale
+tc_grps                  = system
+tau_t                    = 1.0
+ref_t                    = 300
+
+; Pressure coupling
+pcoupltype               = anisotropic
+Pcoupl                   = berendsen
+tau_p                    = 50.0
+compressibility          = 4.5e-05 4.5e-05 4.5e-05 0.0 0.0 0.0
+ref_p                    = 1.0 1.0 1.0 0.0 0.0 0.0
+
+; bond constraints
+constraint-algorithm     = lincs
