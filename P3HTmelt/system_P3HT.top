@@ -1,0 +1,10 @@
+#include "IDTBR_P3HT_potential.itp"
+#include "24P3HT.itp"
+
+[ system ]
+; Name
+P3HT mixture
+
+[ molecules ]
+; Compound        #mols
+24P3HT              128
