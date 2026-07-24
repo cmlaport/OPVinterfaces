@@ -1,0 +1,10 @@
+#include "potential_Y6.itp"
+#include "y6.itp"
+
+[ system ]
+; Name
+Y6 molecules
+
+[ molecules ]
+; Compound        #mols
+y6               420
