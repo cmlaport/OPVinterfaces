@@ -1,0 +1,11 @@
+#include "potentials_pm6.itp"
+#include "10pm6.itp"
+
+[system]
+; Name
+10pm6
+
+[molecules]
+; Compound        #mols
+10pm6             50
+
