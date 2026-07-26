@@ -1,5 +1,5 @@
-#include "IDTBR_potentials_rh_imp.itp"
-#include "IDTBR.itp"
+#include "christine.ff/IDTBR_P3HT_potential.itp"
+#include "christine.ff/IDTBR.itp"
 
 [ system ]
 ; Name
