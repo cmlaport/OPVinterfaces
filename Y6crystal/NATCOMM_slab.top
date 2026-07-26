@@ -1,0 +1,10 @@
+#include "christine.ff/parameters.itp"
+#include "christine.ff/y6.itp"
+
+[ system ]
+; Name
+y6
+
+[ molecules ]
+; Compound        #mols
+y6               80
