@@ -1,0 +1,10 @@
+#include "christine.ff/IDTBR_P3HT_potential.itp"
+#include "christine.ff/24P3HT.itp"
+
+[ system ]
+; Name
+P3HT melt   
+
+[ molecules ]
+; Compound        #mols
+24P3HT              128
