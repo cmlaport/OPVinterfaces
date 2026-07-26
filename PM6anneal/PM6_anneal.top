@@ -1,0 +1,11 @@
+#include "christine.ff/parameters.itp"
+#include "christine.ff/pm6_decamer.itp"
+
+[system]
+; Name
+10pm6
+
+[molecules]
+; Compound        #mols
+10pm6             50
+
