@@ -1,0 +1,11 @@
+#include "christine.ff/IDTBR_P3HT_potential.itp"
+#include "christine.ff/IDTBR.itp"
+
+[ system ]
+; Name
+IDTBR melt
+
+[ molecules ]
+; Compound        #mols
+IDTBR               150
+
