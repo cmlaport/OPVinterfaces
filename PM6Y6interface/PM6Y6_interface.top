@@ -1,0 +1,12 @@
+#include "christine.ff/parameters.itp"
+#include "christine.ff/pm6_decamer.itp"
+#include "christine.ff/y6.itp"
+
+[system]
+; Name
+blend
+
+[molecules]
+; Compound        #mols
+10pm6             50
+y6                420
