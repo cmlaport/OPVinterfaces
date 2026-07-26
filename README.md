@@ -7,8 +7,7 @@ The data has been taken from the following papers. Please cite the references if
 [3] Agarwala, P.; Gomez, E. D.; Milner, S. T. Fast, Faithful Simulations of Donor–Acceptor Interface Morphology. J. Chem. Theory Comput. 2022, 18 (11), 6932–6939. https://doi.org/10.1021/acs.jctc.2c00470.
   
 
-christine.ff contains molecule .itp files needed to run simulations in GROMACS.  
-This is needed to run any project.
+christine.ff contains molecule input topology and potentials (.itp) needed to run simulations in GROMACS. 
 Note: this is an archived copy used in the cited work. Future modifications (if any) to potentials or topology files would be found in the christine.ff repository (https://github.com/cmlaport/christine.ff)
 
 Project folders will contain a .top file, .mdp file, and sample .gro files before and after a production run.  
@@ -24,11 +23,11 @@ after equilibration at melt temperature, and after cooling to room temperature (
 
 
 PM6anneal-contains pure phase files for decamer PM6.
-Configuration files are the initial configuration (resize) and after cooling from melt to room temperature (anneal). [2] 
+Configuration files are the initial configuration (resize) and after cooling from melt to room temperature. [2] 
 
 
 Y6anneal-contains pure phase files for Y6.  
-Configuration files are the initial configuration (resize) and after cooling from melt to room temperature (anneal). [2]
+Configuration files are the initial configuration (resize) and after cooling from melt to room temperature. [2]
 
 
 Y6crystal-contains pure phase files for Y6 crystals.  
