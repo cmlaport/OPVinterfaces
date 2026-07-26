@@ -1,0 +1,12 @@
+#include "christine.ff/IDTBR_P3HT_potential.itp"
+#include "christine.ff/24P3HT.itp"
+#include "christine.ff/IDTBR.itp"
+
+[ system ]
+; Name
+IDTBR P3HT mixture
+
+[ molecules ]
+; Compound        #mols
+24P3HT              128
+IDTBR               300
